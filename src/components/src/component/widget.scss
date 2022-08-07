@@ -1,0 +1,45 @@
+
+    .left,
+    .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  
+      .title {
+        font-weight: bold;
+        font-size: 24px;
+        color: rgb(160, 160, 160);
+      }
+  
+      .counter {
+        font-size: 28px;
+        font-weight: 300;
+      }
+  
+      .link {
+        width: max-content;
+        font-size: 24px;
+        border-bottom: 1px solid gray;
+      }
+  
+      .percentage {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+  
+        &.positive {
+          color: green;
+        }
+        &.negative {
+          color: red;
+        }
+      }
+  
+      .icon {
+        font-size: 73px;
+        padding: 5px;
+        border-radius: 5px;
+        align-self: flex-end;
+      }
+    }
+  }
